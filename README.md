@@ -2,9 +2,9 @@
 
 [<img src="./wt.ico" alt="Terminal Icon" width="128"/>][terminal-app]
 
-Open Windows
-[Terminal][terminal-app]
-in current folder with Right-Click.
+Open Windows Terminal in current folder with Right-Click.
+
+Works with the [new Windows Terminal][terminal-app] by Microsoft which is [significantly better][terminal-better] than CMD and Powershell.
 
 ## Installation
 
@@ -18,6 +18,7 @@ in current folder with Right-Click.
 
 
 [terminal-app]: https://www.microsoft.com/en-in/p/windows-terminal/9n0dx20hk701?rtc=1&activetab=pivot:overviewtab
+[terminal-better]: https://devblogs.microsoft.com/commandline/introducing-windows-terminal/
 [add-ps1]: https://github.com/zeroby0/open-terminal-here/releases/download/v1.0.0/add.ps1
 [terminal-icon]: https://github.com/microsoft/terminal/blob/master/res/terminal.ico
 [registry-keys-comment]: https://github.com/microsoft/terminal/issues/1060#issuecomment-497539461

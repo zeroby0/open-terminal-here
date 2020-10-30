@@ -16,11 +16,11 @@ Invoke-WebRequest  "$ICON_URL" -OutFile "$ICON_PATH\wt.ico"
 # Add entry on folders
 $REG_PATH = "HKCU:\Software\Classes\Directory\shell\wt_terminal"
 New-Item -Path $REG_PATH -Value "Open in Terminal" -Force
-New-Item -Path "$REG_PATH\command" -Value "$WT_PATH -d %V%" -Force
+New-Item -Path "$REG_PATH\command" -Value "$WT_PATH -d `"%V%`"" -Force
 New-ItemProperty -Path $REG_PATH -Name "Icon" -Value "$ICON_PATH\wt.ico"
 
 # Add entry inside folders
 $REG_PATH = "HKCU:\Software\Classes\Directory\Background\shell\wt_terminal"
 New-Item -Path $REG_PATH -Value "Open Terminal here" -Force
-New-Item -Path "$REG_PATH\command" -Value "$WT_PATH -d %V%" -Force
+New-Item -Path "$REG_PATH\command" -Value "$WT_PATH -d `"%V%`"" -Force
 New-ItemProperty -Path $REG_PATH -Name "Icon" -Value "$ICON_PATH\wt.ico"

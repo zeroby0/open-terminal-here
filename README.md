@@ -1,6 +1,7 @@
 # Open Terminal here
 
-[<img src="./wt.ico" alt="Terminal Icon" width="128"/>][terminal-app]
+
+[<img src="https://raw.githubusercontent.com/zeroby0/open-terminal-here/master/header.png" alt="Terminal Icon" width="640"/>][terminal-app]
 
 Open Windows Terminal in current folder with Right-Click.
 
